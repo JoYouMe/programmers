@@ -7,3 +7,9 @@
   위와 같이 4번의 나누기 연산으로 1이 되었습니다.
   정수들이 담긴 리스트 `num_list`가 주어질 때, `num_list`의 모든 원소를 1로 만들기 위해서 필요한 나누기 연산의 횟수를 return하도록 solution 함수를 완성해주세요.
 */
+
+function solution() {
+  return
+}
+
+console.log(solution())
