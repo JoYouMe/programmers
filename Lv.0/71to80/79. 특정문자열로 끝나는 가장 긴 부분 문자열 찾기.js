@@ -3,7 +3,8 @@
  */
 
 function solution(my_string, pat) {
-
+    const s = my_string.lastIndexOf(pat)
+    return my_string.slice(0,s+pat.length)
 }
 
 console.log(solution("AbCdEFG", "dE"))
