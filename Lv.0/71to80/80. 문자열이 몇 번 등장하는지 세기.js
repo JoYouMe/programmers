@@ -3,6 +3,12 @@
  */
 
 function solution(myString, pat) {
-    var answer = 0;
-    return answer;
+    let result = 0;
+    for (let i = 0; i < myString.length - pat.length + 1; i++) {
+        let substr = myString.substring(i, i + pat.length);
+        if (substr === pat) {
+            result++;
+        }
+    }
+    return result;
 }
