@@ -3,6 +3,7 @@
  */
 
 function solution(strArr) {
-    var answer = [];
-    return answer;
+    function solution(strArr) {
+        return strArr.filter(a => !a.includes('ad'))
+    }
 }
