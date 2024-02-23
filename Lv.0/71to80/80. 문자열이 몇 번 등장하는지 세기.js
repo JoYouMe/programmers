@@ -3,12 +3,14 @@
  */
 
 function solution(myString, pat) {
-    let result = 0;
-    for (let i = 0; i < myString.length - pat.length + 1; i++) {
-        let substr = myString.substring(i, i + pat.length);
-        if (substr === pat) {
-            result++;
-        }
+  let count = 0;
+  for (let i = 0; i < myString.length; i++) {
+    let str = myString.substring(i, i + pat.length);
+    if (str === pat) {
+      count++;
     }
-    return result;
+  }
+  return count;
 }
+
+console.log(solution('banana', 'ana'));
