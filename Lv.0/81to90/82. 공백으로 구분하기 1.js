@@ -3,6 +3,7 @@
  */
 
 function solution(my_string) {
-    var answer = [];
-    return answer;
+  let str = [];
+  str = my_string.split(' ');
+  return str;
 }
